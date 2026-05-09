@@ -6,7 +6,7 @@ import os
 import shutil
 from typing import List, Optional
 
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
 from src.config import Config
